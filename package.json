@@ -1,0 +1,33 @@
+{
+  "name": "splitpanes-esm",
+  "version": "3.0.4",
+  "description": "A Vue JS reliable, simple and touch-ready panes splitter / resizer",
+  "author": "Antoni Andre <antoniandre.web@gmail.com>",
+  "module": "dist/splitpanes.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "keywords": [
+    "splitpanes",
+    "split panes",
+    "panes resizer",
+    "vue",
+    "vue3",
+    "vuejs",
+    "ui"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/clemvnt/splitpanes-es",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.3",
+    "rollup": "^2.33.3",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "dependencies": {
+    "splitpanes": "^3.0.4"
+  }
+}
