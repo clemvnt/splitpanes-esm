@@ -20,7 +20,7 @@
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/clemvnt/splitpanes-es",
+  "repository": "https://github.com/clemvnt/splitpanes-esm",
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.3",
     "rollup": "^2.33.3",
